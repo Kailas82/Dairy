@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@color/edit_text_color"
+    tools:context="com.softwares.kdl.Dairy.Main3Activity">
+
+    <ListView
+        android:id="@+id/candidate_listView"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView42"
+        android:layout_marginEnd="236dp"
+        android:layout_weight="1"
+        android:background="@color/bg"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="5dp"
+        android:listSelector="@drawable/list_selector" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="253dp"
+        android:paddingLeft="10dp">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:background="@android:color/background_light"
+            android:orientation="horizontal"
+            android:paddingLeft="5dp">
+
+            <TextView
+                android:id="@+id/m500"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:background="@drawable/background_round_corner_listview"
+                android:backgroundTint="@color/maha"
+                android:gravity="center"
+                android:text="500ml"
+                android:textColor="@android:color/background_light" />
+
+
+            <TextView
+                android:id="@+id/m250"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:background="@drawable/background_round_corner_listview"
+                android:backgroundTint="@color/maha"
+                android:gravity="center"
+                android:text="250ml"
+                android:textColor="@android:color/background_light" />
+
+            <TextView
+                android:id="@+id/m200"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:background="@drawable/background_round_corner_listview"
+                android:backgroundTint="@color/maha"
+                android:gravity="center"
+                android:text="200ml "
+                android:textColor="@android:color/background_light" />
+
+            <TextView
+                android:id="@+id/gay"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:background="@drawable/background_round_corner_listview"
+                android:text="गाय " />
+
+            <TextView
+                android:id="@+id/g500"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:background="@drawable/background_round_corner_listview"
+                android:backgroundTint="@android:color/holo_orange_dark"
+                android:gravity="center"
+                android:text="गोल्ड   " />
+
+            <TextView
+                android:id="@+id/eter"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:background="@drawable/background_round_corner_listview"
+
+                android:text="इतर  " />
+
+            <EditText
+                android:id="@+id/m5"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_column="0"
+                android:layout_row="1"
+
+                android:background="@drawable/background_round_corner_listview"
+                android:ems="10"
+                android:inputType="number"
+
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/m25"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:layout_row="1"
+                android:background="@drawable/background_round_corner_listview"
+                android:ems="10"
+                android:inputType="number"
+
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/g"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_column="4"
+                android:layout_row="1"
+                android:background="@drawable/background_round_corner_listview"
+                android:ems="10"
+                android:inputType="number"
+
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/m2"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_column="2"
+                android:layout_row="1"
+                android:background="@drawable/background_round_corner_listview"
+                android:ems="10"
+                android:inputType="number"
+
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/ga"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_column="3"
+                android:layout_row="1"
+                android:background="@drawable/background_round_corner_listview"
+                android:ems="10"
+                android:inputType="number"
+
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/eterqty"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_column="5"
+                android:layout_row="1"
+                android:background="@drawable/background_round_corner_listview"
+                android:ems="10"
+                android:inputType="number"
+
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_column="0"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:layout_row="2"
+                android:background="@drawable/background_round_corner_listview"
+                android:text="रक्कम "
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:layout_row="2"
+                android:background="@drawable/background_round_corner_listview"
+                android:text="मा . बाकी "
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_column="0"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:layout_row="4"
+                android:background="@drawable/background_round_corner_listview"
+                android:text="एकून बाकी "
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:layout_row="4"
+                android:background="@drawable/background_round_corner_listview"
+                android:text="जमा "
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_column="2"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:layout_row="4"
+                android:background="@drawable/background_round_corner_listview"
+                android:text="बाकी "
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/rakkam"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_column="0"
+                android:layout_row="3"
+                android:background="@drawable/background_round_corner_listview"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/magil"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:layout_row="3"
+                android:background="@drawable/background_round_corner_listview"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <EditText
+                android:id="@+id/akunbaki"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_column="0"
+                android:layout_row="5"
+                android:background="@drawable/background_round_corner_listview"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/jama"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:layout_row="5"
+
+                android:background="@drawable/background_round_corner_listview"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/baki"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_column="2"
+                android:layout_row="5"
+                android:background="@drawable/background_round_corner_listview"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_marginTop="10dp"
+                android:layout_row="6"
+                android:background="@color/colorAccent"
+                android:onClick="delivery"
+                android:paddingTop="10dp"
+                android:text="डेलीवेरी"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_marginTop="10dp"
+                android:layout_row="6"
+                android:background="@color/text_color"
+                android:onClick="jama"
+                android:paddingTop="10dp"
+                android:text="जमा "
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp" />
+
+
+        </GridLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/switch1"
+        android:layout_marginTop="18dp"
+        android:text="TextView"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView2"
+        android:layout_width="700dp"
+        android:layout_height="250dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/horizontalScrollView"
+        android:layout_marginStart="12dp">
+
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout3"
+            android:layout_width="700dp"
+            android:layout_height="300dp"
+            android:layout_alignBottom="@+id/candidate_listView"
+            android:layout_alignStart="@+id/horizontalScrollView2"
+            android:orientation="vertical">
+
+            <ListView
+
+                android:id="@+id/dddd"
+                android:layout_width="700dp"
+
+
+                android:layout_height="350dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="51dp"
+                android:layout_weight="1"
+                android:background="@android:color/background_light"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="5dp"
+                android:listSelector="@drawable/list_selector" />
+        </RelativeLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView7"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="12dp"
+        android:text="TextView"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:onClick="sw"
+        android:text="जमा "
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/switch1"
+        android:layout_alignBottom="@+id/switch1"
+        android:layout_toEndOf="@+id/switch1"
+        android:text="डीलीवरी"
+        android:textColor="@android:color/background_light" />
+
+</RelativeLayout>

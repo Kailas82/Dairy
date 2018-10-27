@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.softwares.kdl.Dairy.Dashboard">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout5"
+        android:layout_width="390dp"
+        android:layout_height="800dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/selectCust"
+        android:background="@android:color/background_light"
+        android:paddingLeft="15dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="32dp">
+
+        <LinearLayout
+            android:id="@+id/relativeLayout6"
+            android:layout_width="120dp"
+
+            android:layout_height="400dp"
+            android:layout_alignParentStart="true"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:layout_toStartOf="@+id/selectCust"
+                android:text="एकून ब्याग   :"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="130dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:text="महानंदा 250ml :"
+                android:textColor="@color/edit_text_color"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="130dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:text="महानंदा 500ml :"
+                android:textColor="@color/edit_text_color"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="130dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:text="महानंदा  200ml :"
+                android:textColor="@color/edit_text_color"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="130dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:text="विकास 500ml :"
+                android:textColor="@color/edit_text_color"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="130dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+
+                android:text="गाय :"
+                android:textColor="@color/edit_text_color"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textVi"
+                android:layout_width="130dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:text="पतंजली  :"
+                android:textColor="@color/edit_text_color"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView156"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+
+                android:text="एकून रुपये   :"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="मागील बाकी  :"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="जमा केले :"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/deposite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="एकून बाकी :"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/k"
+            android:layout_width="match_parent"
+            android:layout_height="800dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:paddingLeft="15dp">
+
+            <TextView
+                android:id="@+id/totbg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="111dp"
+                android:layout_marginTop="10dp"
+
+                android:background="?attr/colorButtonNormal"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/m250"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="111dp"
+                android:layout_marginTop="10dp"
+
+                android:background="?attr/colorButtonNormal"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/m500"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="111dp"
+                android:layout_marginTop="10dp"
+
+                android:background="?attr/colorButtonNormal"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/m200"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="111dp"
+                android:layout_marginTop="10dp"
+
+                android:background="?attr/colorButtonNormal"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/v500"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="111dp"
+                android:layout_marginTop="10dp"
+
+                android:background="?attr/colorButtonNormal"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/gay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="111dp"
+                android:layout_marginTop="10dp"
+
+                android:background="?attr/colorButtonNormal"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/patanjali"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="111dp"
+                android:layout_marginTop="10dp"
+
+                android:background="?attr/colorButtonNormal"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/totbal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="111dp"
+                android:layout_marginTop="10dp"
+
+                android:background="?attr/colorButtonNormal"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/baki"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="111dp"
+                android:layout_marginTop="10dp"
+
+                android:background="?attr/colorButtonNormal"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/jama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="111dp"
+                android:layout_marginTop="10dp"
+
+                android:background="?attr/colorButtonNormal"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/akunbaki"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="111dp"
+                android:layout_marginTop="10dp"
+
+                android:background="?attr/colorButtonNormal"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+        <Spinner
+            android:id="@+id/selectCust"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="11dp"
+            android:background="@drawable/background_round_corner_edittext"
+            tools:layout_editor_absoluteX="125dp"
+            tools:layout_editor_absoluteY="16dp"/>
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="25dp"
+        android:layout_toStartOf="@+id/selectCust"
+        android:text="दिनांक निवडा :"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView31"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="12dp"
+        android:background="@color/text_color"
+        android:onClick="kk"
+        android:text="खर्च पहा "
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button9"
+        android:layout_alignBottom="@+id/button9"
+        android:layout_alignEnd="@+id/selectCust"
+        android:layout_marginEnd="26dp"
+        android:background="@color/colorAccent"
+        android:onClick="exit"
+        android:text="बाहेर "
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+

@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/kdl"
+    tools:context="com.softwares.kdl.Dairy.NewCopy">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout5"
+        android:layout_width="390dp"
+        android:layout_height="300dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView3"
+        android:background="@android:color/background_light"
+        android:paddingLeft="15dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="32dp">
+
+        <LinearLayout
+            android:id="@+id/relativeLayout6"
+            android:layout_width="120dp"
+            android:orientation="vertical"
+            android:layout_height="300dp"
+
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="70dp"
+            android:background="@color/bg">
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="दुध ब्याग "
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="130dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_above="@+id/textView25"
+                android:layout_alignParentStart="true"
+                android:text="महानंदा 250ml :"
+                android:textColor="@color/edit_text_color"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="130dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView28"
+                android:text="महानंदा 500ml :"
+                android:textColor="@color/edit_text_color"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="130dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="8dp"
+                android:layout_above="@+id/textView27"
+                android:layout_alignParentStart="true"
+                android:text="महानंदा  200ml :"
+                android:textColor="@color/edit_text_color"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView222"
+                android:layout_width="130dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_above="@+id/textView27"
+                android:layout_alignParentStart="true"
+                android:text="विकास 500ml :"
+                android:textColor="@color/edit_text_color"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="130dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="8dp"
+                android:layout_above="@+id/textVi"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="12dp"
+                android:text="गाय :"
+                android:textColor="@color/edit_text_color"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textVi"
+                android:layout_width="130dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="12dp"
+                android:padding="5dp"
+                android:text="पतंजली  :"
+                android:textColor="@color/edit_text_color"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/relativeLayout6"
+            android:paddingLeft="15dp"
+            android:id="@+id/relativeLayout2">
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="28dp"
+                android:text="दर "
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/rate1q"
+                android:layout_marginStart="34dp"
+                android:text="नग  "
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/lastname_edt2"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView29"
+                android:background="@drawable/background_round_corner_edittext"
+                android:hint="किंमत :"
+                android:inputType="numberDecimal"
+                android:padding="5dp"
+                android:textColor="@color/edit_text_color" />
+
+            <EditText
+                android:id="@+id/lastname_edt3"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/lastname_edt4"
+                android:background="@drawable/background_round_corner_edittext"
+                android:hint="किंमत :"
+                android:inputType="numberDecimal"
+                android:padding="5dp"
+                android:textColor="@color/edit_text_color" />
+
+            <EditText
+                android:id="@+id/lastname_edt4"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/lastname_edt2"
+                android:background="@drawable/background_round_corner_edittext"
+                android:hint="किंमत :"
+                android:inputType="numberDecimal"
+                android:padding="5dp"
+                android:textColor="@color/edit_text_color" />
+
+            <EditText
+                android:id="@+id/lastname_edt"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/lastname_edt3"
+                android:background="@drawable/background_round_corner_edittext"
+                android:hint="किंमत :"
+                android:inputType="numberDecimal"
+                android:padding="5dp"
+                android:textColor="@color/edit_text_color" />
+
+            <EditText
+                android:id="@+id/lastname_edt5"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/rate5q"
+                android:background="@drawable/background_round_corner_edittext"
+                android:hint="किंमत :"
+                android:inputType="numberDecimal"
+                android:padding="5dp"
+                android:textColor="@color/edit_text_color" />
+
+            <EditText
+                android:id="@+id/lastname_edt6"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/lastname_edt"
+                android:background="@drawable/background_round_corner_edittext"
+                android:hint="किंमत :"
+                android:inputType="numberDecimal"
+                android:padding="5dp"
+                android:textColor="@color/edit_text_color" />
+
+            <EditText
+                android:id="@+id/rate1q"
+                android:layout_width="80dp"
+                android:layout_height="35dp"
+
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/textView30"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/background_round_corner_edittext"
+                android:hint=" "
+                android:inputType="number"
+                android:padding="5dp"
+                android:text="0"
+                android:textColor="@color/edit_text_color" />
+
+            <EditText
+                android:id="@+id/rate2q"
+                android:layout_width="80dp"
+                android:layout_height="35dp"
+                android:layout_alignBaseline="@+id/lastname_edt4"
+
+                android:layout_alignBottom="@+id/lastname_edt4"
+                android:layout_alignStart="@+id/rate1q"
+                android:background="@drawable/background_round_corner_edittext"
+                android:hint=" "
+                android:inputType="number"
+                android:padding="5dp"
+                android:text="0"
+                android:textColor="@color/edit_text_color" />
+
+            <EditText
+                android:id="@+id/rate3q"
+                android:layout_width="80dp"
+                android:layout_height="35dp"
+
+                android:layout_alignBaseline="@+id/lastname_edt3"
+                android:layout_alignBottom="@+id/lastname_edt3"
+                android:layout_alignStart="@+id/rate2q"
+                android:background="@drawable/background_round_corner_edittext"
+                android:hint=" "
+                android:inputType="number"
+                android:padding="5dp"
+                android:text="0"
+                android:textColor="@color/edit_text_color" />
+
+            <EditText
+                android:id="@+id/rate4q"
+                android:layout_width="80dp"
+                android:layout_height="35dp"
+                android:layout_alignBaseline="@+id/lastname_edt"
+
+                android:layout_alignBottom="@+id/lastname_edt"
+                android:layout_alignStart="@+id/rate3q"
+                android:background="@drawable/background_round_corner_edittext"
+                android:hint=" "
+                android:inputType="number"
+                android:padding="5dp"
+                android:text="0"
+                android:textColor="@color/edit_text_color" />
+
+            <EditText
+                android:id="@+id/rate5q"
+                android:layout_width="80dp"
+                android:layout_height="35dp"
+                android:layout_alignBaseline="@+id/lastname_edt6"
+                android:layout_alignBottom="@+id/lastname_edt6"
+                android:layout_alignStart="@+id/rate6q"
+                android:background="@drawable/background_round_corner_edittext"
+                android:hint=" "
+                android:inputType="number"
+                android:padding="5dp"
+                android:text="0"
+                android:textColor="@color/edit_text_color" />
+
+            <EditText
+                android:id="@+id/rate6q"
+                android:layout_width="80dp"
+                android:layout_height="35dp"
+                android:layout_alignStart="@+id/rate4q"
+                android:layout_below="@+id/rate5q"
+                android:background="@drawable/background_round_corner_edittext"
+                android:hint=" "
+                android:inputType="number"
+                android:padding="5dp"
+                android:text="0"
+                android:textColor="@color/edit_text_color" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout7"
+        android:layout_width="400dp"
+        android:layout_height="290dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="246dp"
+        android:background="@color/kdl">
+
+        <TextView
+            android:id="@+id/Total"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="204dp"
+            android:background="@android:color/white"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/Remain"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_alignStart="@+id/editText"
+            android:layout_below="@+id/textView32"
+            android:background="@android:color/white"
+            android:backgroundTint="@android:color/holo_orange_dark"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/grand"
+            android:layout_width="200dp"
+
+            android:layout_height="30dp"
+
+
+            android:layout_alignStart="@+id/Remain"
+            android:layout_below="@+id/textView11"
+            android:background="@android:color/background_light"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+
+
+            android:layout_alignStart="@+id/Total"
+            android:layout_below="@+id/textView156"
+            android:background="@android:color/background_light"
+            android:backgroundTint="@android:color/holo_blue_bright"
+            android:ems="10"
+            android:inputType="number"
+            android:textColor="@android:color/black"
+            android:textColorHighlight="@android:color/background_dark" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+
+            android:layout_above="@+id/textView11"
+            android:layout_alignParentStart="true"
+            android:background="@color/text_color"
+            android:onClick="savedata"
+            android:text="जतन"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/deposite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignBottom="@+id/grand"
+            android:layout_alignEnd="@+id/textView11"
+            android:text="एकून बाकी :"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:layout_alignBottom="@+id/Remain"
+            android:layout_alignEnd="@+id/textView32"
+            android:text="मागील बाकी  :"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView156"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:layout_alignBottom="@+id/Total"
+            android:layout_marginStart="13dp"
+            android:layout_toEndOf="@+id/button3"
+            android:text="एकून रुपये   :"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/editText"
+            android:layout_alignEnd="@+id/textView156"
+            android:text="जमा केले :"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/button8"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="11dp"
+            android:background="@color/text_color"
+            android:onClick="viewr"
+            android:text="कंपनीचे बिल पहा "
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/button7"
+            android:background="@color/colorAccent"
+            android:onClick="view2"
+            android:text="दुकानाचे बिल पहा "
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/selectCust"
+        android:text="TextView"
+
+        android:textColor="@android:color/white"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

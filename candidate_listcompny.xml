@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_round_corner_listview"
+    android:orientation="horizontal" >
+    <RelativeLayout
+        android:id="@+id/relativeLayout4"
+        android:layout_width="300dp"
+
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_toEndOf="@+id/textView21"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+
+        <TextView
+            android:id="@+id/two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:text="दिनांक "
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/three"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/two"
+            android:layout_marginTop="13dp"
+            android:layout_weight="1"
+            android:text="ब्याग "
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/four"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/three"
+            android:layout_marginTop="14dp"
+            android:layout_weight="1"
+            android:text="जमा पैसे "
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/six"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/four"
+            android:layout_marginTop="12dp"
+            android:layout_weight="1"
+            android:text="बाकी "
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/five"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/six"
+            android:layout_marginTop="12dp"
+            android:layout_weight="1"
+            android:text="balance"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/threetwo"
+            android:layout_width="40dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/three"
+            android:layout_toEndOf="@+id/three" />
+
+        <TextView
+            android:id="@+id/threethree"
+            android:layout_width="40dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/threetwo"
+            android:layout_alignBottom="@+id/threetwo"
+            android:layout_toEndOf="@+id/threetwo" />
+
+        <TextView
+            android:id="@+id/threefour"
+            android:layout_width="40dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/threethree"
+            android:layout_alignBottom="@+id/threethree"
+            android:layout_toEndOf="@+id/threethree" />
+
+        <TextView
+            android:id="@+id/threefive"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_alignBaseline="@+id/threefour"
+            android:layout_alignBottom="@+id/threefour"
+            android:layout_toEndOf="@+id/threefour" />
+
+        <TextView
+            android:id="@+id/threesix"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_alignBaseline="@+id/threefive"
+            android:layout_alignBottom="@+id/threefive"
+            android:layout_toEndOf="@+id/threefive" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView14"
+        android:layout_below="@+id/textView14"
+        android:layout_marginTop="12dp"
+        android:text="दिनांक :"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView16"
+        android:layout_below="@+id/textView16"
+        android:layout_marginTop="12dp"
+        android:text="दुध ब्याग  :"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView19"
+        android:layout_below="@+id/textView19"
+        android:layout_marginTop="15dp"
+        android:text="एकूण रुपये  :"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView20"
+        android:layout_below="@+id/textView20"
+        android:layout_marginTop="13dp"
+        android:text="जमा पैसे  :"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView21"
+        android:layout_marginTop="11dp"
+        android:text="बाकी :"
+        android:textSize="15sp" />
+
+</RelativeLayout>

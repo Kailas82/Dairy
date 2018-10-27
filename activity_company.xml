@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.softwares.kdl.Dairy.Company">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="800dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/rel1"
+                android:layout_width="match_parent"
+                android:layout_height="800dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="715dp">
+
+                    <EditText
+                        android:id="@+id/m500"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/symbol_et"
+                        android:layout_marginStart="153dp"
+                        android:layout_marginTop="18dp"
+                        android:background="@drawable/background_round_corner_edittext"
+                        android:hint="महानंदा 500   "
+                        android:inputType="numberDecimal"
+                        android:padding="5dp"
+                        android:textColor="@color/edit_text_color" />
+
+                    <EditText
+                        android:id="@+id/m250"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_alignStart="@+id/m500"
+                        android:layout_below="@+id/m500"
+                        android:background="@drawable/background_round_corner_edittext"
+                        android:hint="महानंदा 250  "
+                        android:inputType="numberDecimal"
+                        android:padding="5dp"
+                        android:textColor="@color/edit_text_color" />
+
+                    <EditText
+                        android:id="@+id/m200"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_alignStart="@+id/m250"
+                        android:layout_below="@+id/m250"
+                        android:background="@drawable/background_round_corner_edittext"
+                        android:hint="महानंदा 200  "
+                        android:inputType="numberDecimal"
+                        android:padding="5dp"
+                        android:textColor="@color/edit_text_color" />
+
+                    <EditText
+                        android:id="@+id/gay"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_alignStart="@+id/m200"
+                        android:layout_below="@+id/m200"
+                        android:background="@drawable/background_round_corner_edittext"
+                        android:hint="gay"
+                        android:inputType="numberDecimal"
+                        android:padding="5dp"
+                        android:textColor="@color/edit_text_color" />
+
+                    <EditText
+                        android:id="@+id/shivratna"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/editText8"
+                        android:layout_toEndOf="@+id/editText8"
+                        android:background="@drawable/background_round_corner_edittext"
+                        android:hint="शिवरत्न   "
+                        android:inputType="numberDecimal"
+                        android:padding="5dp"
+                        android:textColor="@color/edit_text_color" />
+
+                    <EditText
+                        android:id="@+id/patanjali"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/editText8"
+                        android:layout_marginTop="45dp"
+                        android:layout_toEndOf="@+id/editText8"
+                        android:background="@drawable/background_round_corner_edittext"
+                        android:hint="पतंजली   "
+                        android:inputType="numberDecimal"
+                        android:padding="5dp"
+                        android:textColor="@color/edit_text_color" />
+
+                    <EditText
+                        android:id="@+id/prabhrate"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/patanjali"
+                        android:layout_toEndOf="@+id/editText10"
+                        android:background="@drawable/background_round_corner_edittext"
+                        android:hint="प्रभात    "
+                        android:inputType="numberDecimal"
+                        android:padding="5dp"
+                        android:textColor="@color/edit_text_color" />
+
+                    <EditText
+                        android:id="@+id/sakhare"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/prabhrate"
+                        android:layout_toEndOf="@+id/prabhat"
+                        android:background="@drawable/background_round_corner_edittext"
+                        android:hint=" साखरे  "
+                        android:inputType="numberDecimal"
+                        android:padding="5dp"
+                        android:textColor="@color/edit_text_color" />
+
+                    <EditText
+                        android:id="@+id/v500"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_alignStart="@+id/gay"
+                        android:layout_below="@+id/gay"
+                        android:background="@drawable/background_round_corner_edittext"
+                        android:hint="विकास गोल्ड 500   "
+                        android:inputType="numberDecimal"
+                        android:padding="5dp"
+                        android:textColor="@color/edit_text_color" />
+
+                    <EditText
+                        android:id="@+id/editText4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/m500"
+                        android:layout_toStartOf="@+id/m250"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:text="म 500" />
+
+                    <EditText
+                        android:id="@+id/editText5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/m500"
+                        android:layout_toStartOf="@+id/m250"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:text="म 250" />
+
+                    <EditText
+                        android:id="@+id/editText6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/m200"
+                        android:layout_toStartOf="@+id/m250"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:text="म 200" />
+
+                    <EditText
+                        android:id="@+id/editText7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/gay"
+                        android:layout_toStartOf="@+id/m200"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:text="गाय  " />
+
+                    <EditText
+                        android:id="@+id/editText8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/v500"
+                        android:layout_toStartOf="@+id/gay"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:text="गोल्ड" />
+
+                    <EditText
+                        android:id="@+id/shiv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/v500"
+                        android:layout_toStartOf="@+id/patanjali"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:text="शिवरत्न " />
+
+                    <EditText
+                        android:id="@+id/editText10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/patanjali"
+                        android:layout_toStartOf="@+id/patanjali"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:text="पतंजली " />
+
+                    <EditText
+                        android:id="@+id/prabhat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/prabhrate"
+                        android:layout_toStartOf="@+id/patanjali"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:text="प्रभात  " />
+
+                    <EditText
+                        android:id="@+id/sakharename"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/prabhat"
+                        android:layout_toStartOf="@+id/sakhare"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:text="साखरे   " />
+
+                    <Button
+                        android:id="@+id/save_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/editText10"
+                        android:layout_marginTop="146dp"
+                        android:background="@color/text_color"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:text="जतन "
+                        android:textColor="@android:color/white"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/cancel_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/save_btn"
+                        android:layout_alignBottom="@+id/save_btn"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="19dp"
+                        android:background="@color/colorAccent"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:text="बाहेर "
+                        android:textColor="@android:color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="93dp">
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
