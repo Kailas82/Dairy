@@ -28,7 +28,7 @@
         android:layout_alignTop="@+id/selectCust"
         android:layout_marginStart="41dp"
 
-        android:text="मालकाचे नाव  :"
+        android:text="Malkache nav :"
         android:textColor="@android:color/white"
         android:textSize="16sp" />
 
@@ -56,7 +56,7 @@
                 android:layout_alignBaseline="@+id/lastname_edt4"
                 android:layout_alignBottom="@+id/lastname_edt4"
                 android:layout_alignParentStart="true"
-                android:text="महानंदा 250ml :"
+                android:text="Mahananda 250ml :"
                 android:textColor="@color/colorAccent"
                 android:textSize="16sp" />
 
@@ -67,7 +67,7 @@
 
                 android:layout_above="@+id/textView23"
                 android:layout_alignParentStart="true"
-                android:text="महानंदा 500ml :"
+                android:text="Mahananda 500ml :"
                 android:textColor="@color/colorAccent"
                 android:textSize="16sp" />
 
@@ -79,7 +79,7 @@
                 android:layout_alignBaseline="@+id/lastname_edt3"
                 android:layout_alignBottom="@+id/lastname_edt3"
                 android:layout_alignParentStart="true"
-                android:text="महानंदा  200ml :"
+                android:text="Mahanada  200ml :"
                 android:textColor="@color/colorAccent"
                 android:textSize="16sp" />
 
@@ -91,7 +91,7 @@
                 android:layout_alignBaseline="@+id/lastname_edt"
                 android:layout_alignBottom="@+id/lastname_edt"
                 android:layout_alignParentStart="true"
-                android:text="विकास 500ml :"
+                android:text="Vikas 500ml :"
                 android:textColor="@android:color/holo_orange_dark"
                 android:textSize="16sp" />
 
@@ -103,7 +103,7 @@
                 android:layout_alignBaseline="@+id/lastname_edt6"
                 android:layout_alignBottom="@+id/lastname_edt6"
                 android:layout_alignParentStart="true"
-                android:text="गाय :"
+                android:text="COW:"
                 android:textColor="@color/text_color"
                 android:textSize="16sp" />
 
@@ -114,7 +114,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/textView26"
                 android:padding="5dp"
-                android:text="पतंजली  :"
+                android:text="Patangali :"
                 android:textColor="@android:color/holo_orange_light"
                 android:textSize="16sp" />
 
@@ -125,7 +125,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
                 android:layout_marginStart="19dp"
-                android:text="दुध ब्याग "
+                android:text="Dhoot Bag"
                 android:textSize="16sp" />
 
             <TextView
@@ -134,7 +134,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
                 android:layout_toEndOf="@+id/textVi"
-                android:text="दर "
+                android:text="Dar "
                 android:textSize="16sp" />
 
 
@@ -145,7 +145,7 @@
                 android:layout_below="@+id/textView29"
                 android:layout_toEndOf="@+id/textView23"
                 android:background="@drawable/background_round_corner_edittext"
-                android:hint="किंमत :"
+                android:hint="Kimmat :"
                 android:inputType="numberDecimal"
                 android:padding="5dp"
                 android:textColor="@color/edit_text_color" />
@@ -157,7 +157,7 @@
                 android:layout_below="@+id/lastname_edt4"
                 android:layout_toEndOf="@+id/textView23"
                 android:background="@drawable/background_round_corner_edittext"
-                android:hint="किंमत :"
+                android:hint="Kimmat :"
                 android:inputType="numberDecimal"
                 android:padding="5dp"
                 android:textColor="@color/edit_text_color" />
@@ -169,7 +169,7 @@
                 android:layout_below="@+id/lastname_edt2"
                 android:layout_toEndOf="@+id/textView23"
                 android:background="@drawable/background_round_corner_edittext"
-                android:hint="किंमत :"
+                android:hint="Kimmat:"
                 android:inputType="numberDecimal"
                 android:padding="5dp"
                 android:textColor="@color/edit_text_color" />
@@ -181,7 +181,7 @@
                 android:layout_below="@+id/lastname_edt3"
                 android:layout_toEndOf="@+id/textView27"
                 android:background="@drawable/background_round_corner_edittext"
-                android:hint="किंमत :"
+                android:hint="Kimmat :"
                 android:inputType="numberDecimal"
                 android:padding="5dp"
                 android:textColor="@color/edit_text_color" />
@@ -193,7 +193,7 @@
                 android:layout_below="@+id/lastname_edt6"
                 android:layout_toEndOf="@+id/textView26"
                 android:background="@drawable/background_round_corner_edittext"
-                android:hint="किंमत :"
+                android:hint="Kimmat :"
                 android:inputType="numberDecimal"
                 android:padding="5dp"
                 android:textColor="@color/edit_text_color" />
@@ -205,7 +205,7 @@
                 android:layout_below="@+id/lastname_edt"
                 android:layout_toEndOf="@+id/textView27"
                 android:background="@drawable/background_round_corner_edittext"
-                android:hint="किंमत :"
+                android:hint="Kimmat:"
                 android:inputType="numberDecimal"
                 android:padding="5dp"
                 android:textColor="@color/edit_text_color" />
@@ -220,7 +220,7 @@
                 android:layout_marginTop="78dp"
                 android:background="@color/colorAccent"
                 android:onClick="send"
-                android:text="बदल "
+                android:text="Badal"
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
 
