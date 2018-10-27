@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/rr"
     android:orientation="vertical"
-    android:paddingLeft="50dp"
+    
     android:paddingRight="50dp"
     tools:context="com.softwares.kdl.Dairy.Login">
 
